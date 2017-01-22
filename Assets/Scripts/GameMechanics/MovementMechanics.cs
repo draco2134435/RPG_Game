@@ -13,12 +13,14 @@ public class MovementMechanics : MonoBehaviour {
     public bool movementActive = true;
 
     float hInput;//The input and direction that the character should move in
+    FlipSprite flipSprite;
     float currentSpeed;
     Rigidbody2D rigid;
 
     void Start()
     {
         rigid = GetComponent<Rigidbody2D>();
+        flipSprite = GetComponent<FlipSprite>();
     }
 
     void Update()
@@ -43,6 +45,7 @@ public class MovementMechanics : MonoBehaviour {
     public void setHorizontalInput(float hInput)
     {
         this.hInput = hInput;
+        if (flipSprite != null) flipSprite.setHorizontalInput(hInput);
     }
 
     void FixedUpdate()
