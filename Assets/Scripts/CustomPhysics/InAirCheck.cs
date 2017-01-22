@@ -43,8 +43,7 @@ public class InAirCheck : MonoBehaviour {
     public float getYPosition()
     {
         if (collisionObject == null) return 0;
-        print(collisionObject.name);
-        print(collisionObject.bounds.center.y + collisionObject.bounds.extents.y);
+        
         return collisionObject.bounds.max.y;
     }
 }

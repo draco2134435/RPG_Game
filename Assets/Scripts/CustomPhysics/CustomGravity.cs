@@ -28,7 +28,7 @@ public class CustomGravity : MonoBehaviour {
         if (!gravityActive) return;
         if (inAir != null && !inAir.getInAir())
         {
-            rigid.velocity = new Vector2(rigid.velocity.x, 0);
+            //rigid.velocity = new Vector2(rigid.velocity.x, 0);
             transform.position = new Vector3(transform.position.x, inAir.getYPosition(), transform.position.z);
             return;
         }

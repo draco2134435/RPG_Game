@@ -28,11 +28,6 @@ public class MovementMechanics : MonoBehaviour {
         {
             hInput = 0;
         }
-        else
-        {
-            hInput = Input.GetAxisRaw("Horizontal");
-        }
-
         float scale = (hInput < 0) ? -1 : 1;
         currentSpeed = 0;
         if (Mathf.Abs(hInput) > runThreshold)
@@ -43,6 +38,11 @@ public class MovementMechanics : MonoBehaviour {
         {
             currentSpeed = scale * walkSpeed;
         }
+    }
+
+    public void setHorizontalInput(float hInput)
+    {
+        this.hInput = hInput;
     }
 
     void FixedUpdate()
