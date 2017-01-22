@@ -67,4 +67,9 @@ public class FlipSprite : MonoBehaviour {
         if (startsRight) isRight = !direction;
         updateDirection();
     }
+
+    public bool getIsRight()
+    {
+        return isRight;
+    }
 }
