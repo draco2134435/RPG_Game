@@ -22,7 +22,7 @@ public class ProjectileLauncher : MonoBehaviour {
         if (launchPosition == null) launchPosition = this.transform;
 	}
 
-    public void fireWeapon(bool fireInput)
+    public void fireWeapon(bool fireInput, Vector2 direction)
     {
         if (fireInput && fireActive)
         {
@@ -30,7 +30,7 @@ public class ProjectileLauncher : MonoBehaviour {
             currentProjectilLaunch = (currentProjectilLaunch + 1) % allProjectiles.Length;
             pm.gameObject.SetActive(true);
             pm.transform.position = launchPosition.position;
-            pm.launchProjectile(Vector2.right);
+            pm.launchProjectile(direction);
 
         }
     }

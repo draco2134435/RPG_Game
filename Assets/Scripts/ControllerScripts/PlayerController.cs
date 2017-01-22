@@ -4,13 +4,13 @@ using System.Collections;
 public class PlayerController : MonoBehaviour {
     MovementMechanics mMechanics;
     JumpMechanics jMechanics;
-    ProjectileLauncher pMechanics;
+    FireWeaponMechanics fMechanics;
 
 	// Use this for initialization
 	void Start () {
         mMechanics = GetComponent<MovementMechanics>();
         jMechanics = GetComponent<JumpMechanics>();
-        pMechanics = GetComponentInChildren<ProjectileLauncher>();
+        fMechanics = GetComponentInChildren<FireWeaponMechanics>();
 	}
 	
 	// Update is called once per frame
@@ -28,9 +28,9 @@ public class PlayerController : MonoBehaviour {
         {
             jMechanics.jump(jumpButton);
         }
-        if (pMechanics)
+        if (fMechanics)
         {
-            pMechanics.fireWeapon(fireButton);
+            fMechanics.fireWeapon(fireButton);
         }
 	}
 }
