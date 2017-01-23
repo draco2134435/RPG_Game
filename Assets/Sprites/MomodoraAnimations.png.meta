@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: a2b98e36707188045ab082afa84483b9
-timeCreated: 1485122682
+timeCreated: 1485213416
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -145,10 +145,10 @@ TextureImporter:
     21300276: MomodoraAnimations_138
     21300278: MomodoraAnimations_139
     21300280: MomodoraAnimations_140
-    21300282: MomodoraAnimations_141
-    21300284: MomodoraAnimations_142
-    21300286: MomodoraAnimations_143
-    21300288: MomodoraAnimations_144
+    21300282: _crouchDown_00
+    21300284: _crouchDown_01
+    21300286: _crouchDown_02
+    21300288: _crouchDown_03
     21300290: MomodoraAnimations_145
     21300292: MomodoraAnimations_146
     21300294: MomodoraAnimations_147
@@ -2481,20 +2481,20 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MomodoraAnimations_141
+      name: _crouchDown_00
       rect:
         serializedVersion: 2
-        x: 15
-        y: 2780
-        width: 20
-        height: 37
+        x: 17
+        y: 2789
+        width: 18
+        height: 28
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MomodoraAnimations_142
+      name: _crouchDown_01
       rect:
         serializedVersion: 2
         x: 66
@@ -2507,28 +2507,28 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MomodoraAnimations_143
+      name: _crouchDown_02
       rect:
         serializedVersion: 2
         x: 115
         y: 2789
         width: 19
         height: 24
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.4423544, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MomodoraAnimations_144
+      name: _crouchDown_03
       rect:
         serializedVersion: 2
         x: 164
         y: 2789
         width: 19
         height: 24
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.42139181, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
