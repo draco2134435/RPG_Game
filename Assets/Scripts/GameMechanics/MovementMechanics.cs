@@ -14,6 +14,7 @@ public class MovementMechanics : MonoBehaviour {
 
     float hInput;//The input and direction that the character should move in
     FlipSprite flipSprite;
+    Animator anim;
     float currentSpeed;
     Rigidbody2D rigid;
 
@@ -21,6 +22,7 @@ public class MovementMechanics : MonoBehaviour {
     {
         rigid = GetComponent<Rigidbody2D>();
         flipSprite = GetComponent<FlipSprite>();
+        anim = GetComponent<Animator>();
     }
 
     void Update()
@@ -39,6 +41,10 @@ public class MovementMechanics : MonoBehaviour {
         else if (Mathf.Abs(hInput) > 0.01f)
         {
             currentSpeed = scale * walkSpeed;
+        }
+        if (anim)
+        {
+            anim.SetFloat("Speed", Mathf.Abs(hInput));
         }
     }
 
