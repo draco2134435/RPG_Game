@@ -38,7 +38,7 @@ public class CustomGravity : MonoBehaviour {
     void FixedUpdate()
     {
         if (!gravityActive) return;
-        if (inAir != null && !inAir.getInAir())
+        if (inAir != null && !inAir.getInAir() && rigid.velocity.y <= 0)
         {
             rigid.velocity = new Vector2(rigid.velocity.x, 0);
             rigid.constraints = RigidbodyConstraints2D.FreezePositionY | rigid.constraints;
