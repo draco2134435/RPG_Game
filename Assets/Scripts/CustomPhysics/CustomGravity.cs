@@ -12,6 +12,7 @@ public class CustomGravity : MonoBehaviour {
     public InAirCheck inAir;
 
     Rigidbody2D rigid;
+    JumpMechanics jMechanics;
 
     void Start()
     {
@@ -45,9 +46,14 @@ public class CustomGravity : MonoBehaviour {
         }
         else
         {
-            rigid.constraints = ~RigidbodyConstraints2D.FreezePositionY & rigid.constraints;
+            tempRemoveConstraints();   
         }
         rigid.velocity = Vector2.MoveTowards(rigid.velocity, new Vector2(rigid.velocity.x, -maxFallSpeed), Time.fixedDeltaTime * gravityScale * GRAVITY);
+    }
+
+    public void tempRemoveConstraints()
+    {
+        rigid.constraints = ~RigidbodyConstraints2D.FreezePositionY & rigid.constraints;
     }
 
 }

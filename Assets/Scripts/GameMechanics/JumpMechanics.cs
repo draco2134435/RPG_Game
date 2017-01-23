@@ -22,11 +22,6 @@ public class JumpMechanics : MonoBehaviour {
 
     void Update()
     {
-        if (hasJumped && rigid.velocity.y > 0)
-        {
-            hasJumped = false;
-            customGravity.gravityActive = true;
-        }
         if (canDoubleJump) return;
         if (inAir != null && !inAir.getInAir())
         {
@@ -39,7 +34,7 @@ public class JumpMechanics : MonoBehaviour {
         if (inAir == null || jumpDisabled) return;
         if (!inAir.getInAir() && jumpButton)
         {
-            customGravity.gravityActive = false;
+            customGravity.tempRemoveConstraints();
             rigid.velocity = new Vector2(rigid.velocity.x, jumpForce);
             hasJumped = true;
         }
