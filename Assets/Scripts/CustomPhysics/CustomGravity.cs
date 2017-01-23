@@ -23,14 +23,29 @@ public class CustomGravity : MonoBehaviour {
         }
     }
 
+    void Update()
+    {
+        if (!gravityActive) return;
+        if (inAir != null && !inAir.getInAir())
+        {
+            //if (rigid.velocity.y <= 0)
+            transform.position = new Vector3(transform.position.x, inAir.getYPosition(), transform.position.z);
+
+            return;
+        }
+    }
+
     void FixedUpdate()
     {
         if (!gravityActive) return;
         if (inAir != null && !inAir.getInAir())
         {
-            //rigid.velocity = new Vector2(rigid.velocity.x, 0);
-            transform.position = new Vector3(transform.position.x, inAir.getYPosition(), transform.position.z);
-            return;
+            rigid.velocity = new Vector2(rigid.velocity.x, 0);
+            rigid.constraints = RigidbodyConstraints2D.FreezePositionY | rigid.constraints;
+        }
+        else
+        {
+            rigid.constraints = ~RigidbodyConstraints2D.FreezePositionY & rigid.constraints;
         }
         rigid.velocity = Vector2.MoveTowards(rigid.velocity, new Vector2(rigid.velocity.x, -maxFallSpeed), Time.fixedDeltaTime * gravityScale * GRAVITY);
     }

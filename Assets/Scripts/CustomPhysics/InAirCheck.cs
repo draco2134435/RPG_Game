@@ -30,7 +30,11 @@ public class InAirCheck : MonoBehaviour {
            
             if (hit)
             {
-                collisionObject = hit.collider;
+                if (collisionObject == null) collisionObject = hit.collider;
+                else if (collisionObject.bounds.max.y < hit.collider.bounds.max.y)
+                {
+                    collisionObject = hit.collider;
+                }
             }
         }
     }
