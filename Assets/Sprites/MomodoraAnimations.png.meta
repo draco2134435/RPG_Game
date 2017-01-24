@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: a2b98e36707188045ab082afa84483b9
-timeCreated: 1485213416
+timeCreated: 1485216271
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -258,15 +258,15 @@ TextureImporter:
     21300502: MomodoraAnimations_251
     21300504: MomodoraAnimations_252
     21300506: MomodoraAnimations_253
-    21300508: MomodoraAnimations_254
-    21300510: MomodoraAnimations_255
-    21300512: MomodoraAnimations_256
+    21300508: _jumpUp_00
+    21300510: _jumpUp_01
+    21300512: _jumpUp_02
     21300514: MomodoraAnimations_257
-    21300516: MomodoraAnimations_258
-    21300518: MomodoraAnimations_259
-    21300520: MomodoraAnimations_260
-    21300522: MomodoraAnimations_261
-    21300524: MomodoraAnimations_262
+    21300516: _jumpDown_00
+    21300518: _jumpDown_01
+    21300520: _jumpDown_02
+    21300522: _jumpDown_03
+    21300524: _jumpDown_04
     21300526: MomodoraAnimations_263
     21300528: MomodoraAnimations_264
     21300530: MomodoraAnimations_265
@@ -3950,7 +3950,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MomodoraAnimations_254
+      name: _jumpUp_00
       rect:
         serializedVersion: 2
         x: 12
@@ -3963,7 +3963,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MomodoraAnimations_255
+      name: _jumpUp_01
       rect:
         serializedVersion: 2
         x: 61
@@ -3976,7 +3976,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MomodoraAnimations_256
+      name: _jumpUp_02
       rect:
         serializedVersion: 2
         x: 110
@@ -4002,7 +4002,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MomodoraAnimations_258
+      name: _jumpDown_00
       rect:
         serializedVersion: 2
         x: 12
@@ -4015,7 +4015,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MomodoraAnimations_259
+      name: _jumpDown_01
       rect:
         serializedVersion: 2
         x: 61
@@ -4028,7 +4028,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MomodoraAnimations_260
+      name: _jumpDown_02
       rect:
         serializedVersion: 2
         x: 112
@@ -4041,7 +4041,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MomodoraAnimations_261
+      name: _jumpDown_03
       rect:
         serializedVersion: 2
         x: 161
@@ -4054,7 +4054,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MomodoraAnimations_262
+      name: _jumpDown_04
       rect:
         serializedVersion: 2
         x: 210
