@@ -11,6 +11,7 @@ public class MovementMechanics : MonoBehaviour {
     public float runThreshold = .45f;//The amount that has to be input before the character will enter run speed
     public bool inputActive = true;
     public bool movementActive = true;
+    public bool noMovementHorizontal = false;
 
     float hInput;//The input and direction that the character should move in
     FlipSprite flipSprite;
@@ -56,6 +57,11 @@ public class MovementMechanics : MonoBehaviour {
 
     void FixedUpdate()
     {
+        if (noMovementHorizontal)
+        {
+            rigid.velocity = new Vector2(0, rigid.velocity.y);
+            return;
+        }
         rigid.velocity = Vector2.MoveTowards(rigid.velocity, new Vector2(currentSpeed, rigid.velocity.y), acceleration * Time.fixedDeltaTime);
     }
 }
