@@ -5,6 +5,7 @@ using System.Collections;
 [RequireComponent(typeof(Rigidbody2D))]
 
 public class MovementMechanics : MonoBehaviour {
+    public Transform spriteObject;
     public float walkSpeed = 2;
     public float runSpeed = 5;
     public float acceleration = 15;
@@ -63,5 +64,11 @@ public class MovementMechanics : MonoBehaviour {
             return;
         }
         rigid.velocity = Vector2.MoveTowards(rigid.velocity, new Vector2(currentSpeed, rigid.velocity.y), acceleration * Time.fixedDeltaTime);
+    }
+
+    public void resetPosition()
+    {
+        this.transform.position = spriteObject.position;
+        spriteObject.position = Vector3.zero;
     }
 }

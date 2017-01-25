@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: a2b98e36707188045ab082afa84483b9
-timeCreated: 1485315673
+timeCreated: 1485321284
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -33,17 +33,17 @@ TextureImporter:
     21300052: _Melee2_06
     21300054: MomodoraAnimations_27
     21300056: MomodoraAnimations_28
-    21300058: MomodoraAnimations_29
-    21300060: MomodoraAnimations_30
-    21300062: MomodoraAnimations_31
-    21300064: MomodoraAnimations_32
-    21300066: MomodoraAnimations_33
-    21300068: MomodoraAnimations_34
-    21300070: MomodoraAnimations_35
-    21300072: MomodoraAnimations_36
-    21300074: MomodoraAnimations_37
-    21300076: MomodoraAnimations_38
-    21300078: MomodoraAnimations_39
+    21300058: _Melee3_00
+    21300060: _Melee3_01
+    21300062: _Melee3_02
+    21300064: _Melee3_03
+    21300066: _Melee3_04
+    21300068: _Melee3_05
+    21300070: _Melee3_06
+    21300072: _Melee3_07
+    21300074: _Melee3_08
+    21300076: _Melee3_09
+    21300078: _Melee3_10
     21300080: MomodoraAnimations_40
     21300082: MomodoraAnimations_41
     21300084: MomodoraAnimations_42
@@ -648,45 +648,6 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MomodoraAnimations_0
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 3857
-        width: 5
-        height: 4
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: MomodoraAnimations_1
-      rect:
-        serializedVersion: 2
-        x: 19
-        y: 3857
-        width: 5
-        height: 6
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: MomodoraAnimations_2
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 3860
-        width: 5
-        height: 5
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
       name: MomodoraAnimations_3
       rect:
         serializedVersion: 2
@@ -759,32 +720,6 @@ TextureImporter:
         y: 3818
         width: 56
         height: 34
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: MomodoraAnimations_9
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 3799
-        width: 4
-        height: 5
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: MomodoraAnimations_10
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 3797
-        width: 5
-        height: 4
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -882,32 +817,6 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MomodoraAnimations_18
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 3736
-        width: 4
-        height: 5
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: MomodoraAnimations_19
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 3734
-        width: 5
-        height: 4
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
       name: _Melee2_00
       rect:
         serializedVersion: 2
@@ -999,85 +908,59 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MomodoraAnimations_27
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 3673
-        width: 4
-        height: 5
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: MomodoraAnimations_28
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 3671
-        width: 5
-        height: 4
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: MomodoraAnimations_29
+      name: _Melee3_00
       rect:
         serializedVersion: 2
         x: 6
         y: 3620
         width: 31
         height: 34
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.61300224, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MomodoraAnimations_30
+      name: _Melee3_01
       rect:
         serializedVersion: 2
         x: 51
         y: 3620
         width: 34
         height: 36
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.6907178, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MomodoraAnimations_31
+      name: _Melee3_02
       rect:
         serializedVersion: 2
         x: 99
         y: 3620
         width: 35
         height: 36
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.6661028, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MomodoraAnimations_32
+      name: _Melee3_03
       rect:
         serializedVersion: 2
         x: 148
         y: 3620
         width: 32
         height: 37
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.6560545, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MomodoraAnimations_33
+      name: _Melee3_04
       rect:
         serializedVersion: 2
         x: 207
@@ -1090,7 +973,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MomodoraAnimations_34
+      name: _Melee3_05
       rect:
         serializedVersion: 2
         x: 263
@@ -1103,46 +986,46 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MomodoraAnimations_35
+      name: _Melee3_06
       rect:
         serializedVersion: 2
         x: 303
         y: 3620
         width: 29
         height: 29
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.66191787, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MomodoraAnimations_36
+      name: _Melee3_07
       rect:
         serializedVersion: 2
         x: 351
         y: 3620
         width: 30
         height: 29
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.6788808, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MomodoraAnimations_37
+      name: _Melee3_08
       rect:
         serializedVersion: 2
         x: 400
         y: 3620
         width: 30
         height: 29
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.66645813, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MomodoraAnimations_38
+      name: _Melee3_09
       rect:
         serializedVersion: 2
         x: 455
@@ -1155,52 +1038,13 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MomodoraAnimations_39
+      name: _Melee3_10
       rect:
         serializedVersion: 2
         x: 506
         y: 3620
         width: 19
         height: 35
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: MomodoraAnimations_40
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 3610
-        width: 4
-        height: 5
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: MomodoraAnimations_41
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 3610
-        width: 4
-        height: 5
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: MomodoraAnimations_42
-      rect:
-        serializedVersion: 2
-        x: 29
-        y: 3608
-        width: 5
-        height: 4
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1298,58 +1142,6 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MomodoraAnimations_50
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 3545
-        width: 5
-        height: 4
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: MomodoraAnimations_51
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 3545
-        width: 5
-        height: 6
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: MomodoraAnimations_52
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 3547
-        width: 4
-        height: 5
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: MomodoraAnimations_53
-      rect:
-        serializedVersion: 2
-        x: 39
-        y: 3545
-        width: 5
-        height: 4
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
       name: MomodoraAnimations_54
       rect:
         serializedVersion: 2
@@ -1441,19 +1233,6 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MomodoraAnimations_61
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 3482
-        width: 11
-        height: 6
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
       name: MomodoraAnimations_62
       rect:
         serializedVersion: 2
@@ -1500,19 +1279,6 @@ TextureImporter:
         y: 3436
         width: 17
         height: 9
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: MomodoraAnimations_66
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 3419
-        width: 11
-        height: 6
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
