@@ -11,13 +11,13 @@ public class FireWeaponMechanics : MonoBehaviour {
         spriteDirection = GetComponent<FlipSprite>();
     }
 
-    public void fireWeapon(bool fireWeaponInput)
+    public void fireWeapon()
     {
         if (pLauncher)
         {
             Vector2 direction = Vector2.right;
             if (!spriteDirection.getIsRight()) direction = Vector2.left;
-            pLauncher.fireWeapon(fireWeaponInput, direction);
+            pLauncher.fireWeapon(true, direction);
         }
     }
 

@@ -5,12 +5,14 @@ public class PlayerController : MonoBehaviour {
     MovementMechanics mMechanics;
     JumpMechanics jMechanics;
     FireWeaponMechanics fMechanics;
+    Animator anim;
 
 	// Use this for initialization
 	void Start () {
         mMechanics = GetComponent<MovementMechanics>();
         jMechanics = GetComponent<JumpMechanics>();
         fMechanics = GetComponentInChildren<FireWeaponMechanics>();
+        anim = GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame
@@ -30,7 +32,7 @@ public class PlayerController : MonoBehaviour {
         }
         if (fMechanics)
         {
-            fMechanics.fireWeapon(fireButton);
+            if (fireButton) anim.SetTrigger("Projectile");
         }
 	}
 }
