@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: a2b98e36707188045ab082afa84483b9
-timeCreated: 1485216271
+timeCreated: 1485315673
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -24,13 +24,13 @@ TextureImporter:
     21300034: _Melee1_06
     21300036: MomodoraAnimations_18
     21300038: MomodoraAnimations_19
-    21300040: MomodoraAnimations_20
-    21300042: MomodoraAnimations_21
-    21300044: MomodoraAnimations_22
-    21300046: MomodoraAnimations_23
-    21300048: MomodoraAnimations_24
-    21300050: MomodoraAnimations_25
-    21300052: MomodoraAnimations_26
+    21300040: _Melee2_00
+    21300042: _Melee2_01
+    21300044: _Melee2_02
+    21300046: _Melee2_03
+    21300048: _Melee2_04
+    21300050: _Melee2_05
+    21300052: _Melee2_06
     21300054: MomodoraAnimations_27
     21300056: MomodoraAnimations_28
     21300058: MomodoraAnimations_29
@@ -794,7 +794,7 @@ TextureImporter:
       name: _Melee1_00
       rect:
         serializedVersion: 2
-        x: 10
+        x: 9
         y: 3746
         width: 25
         height: 36
@@ -908,7 +908,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MomodoraAnimations_20
+      name: _Melee2_00
       rect:
         serializedVersion: 2
         x: 12
@@ -921,7 +921,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MomodoraAnimations_21
+      name: _Melee2_01
       rect:
         serializedVersion: 2
         x: 61
@@ -934,7 +934,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MomodoraAnimations_22
+      name: _Melee2_02
       rect:
         serializedVersion: 2
         x: 113
@@ -947,7 +947,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MomodoraAnimations_23
+      name: _Melee2_03
       rect:
         serializedVersion: 2
         x: 158
@@ -960,7 +960,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MomodoraAnimations_24
+      name: _Melee2_04
       rect:
         serializedVersion: 2
         x: 209
@@ -973,7 +973,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MomodoraAnimations_25
+      name: _Melee2_05
       rect:
         serializedVersion: 2
         x: 258
@@ -986,7 +986,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MomodoraAnimations_26
+      name: _Melee2_06
       rect:
         serializedVersion: 2
         x: 306
