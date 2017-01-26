@@ -3,13 +3,24 @@ using System.Collections;
 
 public class Hurtbox : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    protected virtual void onHitboxEntered()
+    {
+
+    }
+
+    protected virtual void onHurtboxEntered()
+    {
+
+    }
+
+
+    void OnTriggerEnter2D (Collider2D collider)
+    {
+
+    }
+
+    void OnTriggerExit2D(Collider2D collider)
+    {
+
+    }
 }
