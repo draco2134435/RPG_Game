@@ -6,6 +6,8 @@ public class PlayerController : MonoBehaviour {
     JumpMechanics jMechanics;
     FireWeaponMechanics fMechanics;
     Animator anim;
+    BufferInputs bufferInputs = new BufferInputs();
+    MeleeMechanics meleeMechanics;
 
 	// Use this for initialization
 	void Start () {
@@ -13,6 +15,9 @@ public class PlayerController : MonoBehaviour {
         jMechanics = GetComponent<JumpMechanics>();
         fMechanics = GetComponentInChildren<FireWeaponMechanics>();
         anim = GetComponent<Animator>();
+        meleeMechanics = GetComponent<MeleeMechanics>();
+        bufferInputs.addInput("Fire");
+        bufferInputs.addInput("Melee");
 	}
 	
 	// Update is called once per frame
@@ -20,7 +25,7 @@ public class PlayerController : MonoBehaviour {
         float hInput = Input.GetAxisRaw("Horizontal");
         float vInput = Input.GetAxisRaw("Vertical");
         bool jumpButton = Input.GetButtonDown("Jump");
-        bool fireButton = Input.GetButtonDown("Fire");
+        bufferInputs.update(Time.deltaTime);
 
         if (mMechanics)
         {
@@ -32,7 +37,14 @@ public class PlayerController : MonoBehaviour {
         }
         if (fMechanics)
         {
-            if (fireButton) anim.SetTrigger("Projectile");
+            if (bufferInputs.getInputActive("Fire")) anim.SetTrigger("Projectile");
+            else anim.ResetTrigger("Projectile");
         }
+        if (meleeMechanics)
+        {
+            if (bufferInputs.getInputActive("Melee")) anim.SetTrigger("Melee");
+            else anim.ResetTrigger("Melee");
+        }
+        
 	}
 }
