@@ -12,16 +12,20 @@ public class JumpMechanics : MonoBehaviour {
     InAirCheck inAir;
     CustomGravity customGravity;
     Rigidbody2D rigid;
+    Animator anim;
 
     void Start()
     {
         inAir = GetComponentInChildren<InAirCheck>();
         customGravity = GetComponent<CustomGravity>();
         rigid = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     void Update()
     {
+        anim.SetFloat("VerticalSpeed", rigid.velocity.y);
+        anim.SetBool("inAir", inAir.getInAir());
         if (canDoubleJump) return;
         if (inAir != null && !inAir.getInAir())
         {

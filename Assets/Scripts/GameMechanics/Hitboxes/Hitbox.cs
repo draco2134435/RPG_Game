@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Hitbox : MonoBehaviour {
     public float hitBoxStrength = 1;
-    public float hitStun = 0;
+    public float hitStun = 0; //The amount of time in seconds, for an enemy to be 
 
 
     protected virtual void onHitboxEntered()
