@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         float hInput = Input.GetAxisRaw("Horizontal");
-        float vInput = Input.GetAxisRaw("Vertical");
+        //float vInput = Input.GetAxisRaw("Vertical");
         bool jumpButton = Input.GetButtonDown("Jump");
         bufferInputs.update(Time.deltaTime);
 

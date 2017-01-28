@@ -8,7 +8,7 @@ public class JumpMechanics : MonoBehaviour {
     public bool jumpDisabled = false;
 
     bool canDoubleJump;
-    bool hasJumped = false;
+
     InAirCheck inAir;
     CustomGravity customGravity;
     Rigidbody2D rigid;
@@ -40,7 +40,7 @@ public class JumpMechanics : MonoBehaviour {
         {
             customGravity.tempRemoveConstraints();
             rigid.velocity = new Vector2(rigid.velocity.x, jumpForce);
-            hasJumped = true;
+            //hasJumped = true;
         }
     }
 }
