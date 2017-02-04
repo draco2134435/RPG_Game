@@ -2,5 +2,5 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ActiveItem : Item {
+public class PassiveItem : Item {
 }

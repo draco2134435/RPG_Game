@@ -4,7 +4,17 @@ using UnityEngine;
 
 public class ItemsPouch : MonoBehaviour {
     public int maxItemSize = 10;
+    public int currentItemSelected;
+    public int maxActiveItems;
+    public int maxPassiveItems;
+    ItemNode[] currentActiveItems;
+    PassiveItem[] currentPassiveItems;
     Dictionary<string, ItemNode> pouch;
+
+    void Start()
+    {
+        currentActiveItems = new ItemNode[maxActiveItems];
+    }
 
     public bool addItem(Item item)
     {
@@ -22,6 +32,16 @@ public class ItemsPouch : MonoBehaviour {
             if (!addItem(item)) return false;
         }
         return true;
+    }
+
+    public void setActiveItem(ItemNode item, int slot)
+    {
+        currentActiveItems[slot % currentActiveItems.Length] = item;
+    }
+
+    public void setPassiveItem(PassiveItem item, int slot)
+    {
+
     }
 
     public class ItemNode
