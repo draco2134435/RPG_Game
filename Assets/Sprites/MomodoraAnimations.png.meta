@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: a2b98e36707188045ab082afa84483b9
-timeCreated: 1485321284
+timeCreated: 1486250458
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -134,13 +134,13 @@ TextureImporter:
     21300254: _Run_09
     21300256: MomodoraAnimations_128
     21300258: MomodoraAnimations_129
-    21300260: MomodoraAnimations_130
-    21300262: MomodoraAnimations_131
-    21300264: MomodoraAnimations_132
-    21300266: MomodoraAnimations_133
-    21300268: MomodoraAnimations_134
-    21300270: MomodoraAnimations_135
-    21300272: MomodoraAnimations_136
+    21300260: _Stop_000
+    21300262: _Stop_001
+    21300264: _Stop_002
+    21300266: _Stop_003
+    21300268: _Stop_004
+    21300270: _Stop_005
+    21300272: _Stop_006
     21300274: MomodoraAnimations_137
     21300276: MomodoraAnimations_138
     21300278: MomodoraAnimations_139
@@ -2104,7 +2104,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MomodoraAnimations_130
+      name: _Stop_000
       rect:
         serializedVersion: 2
         x: 12
@@ -2117,7 +2117,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MomodoraAnimations_131
+      name: _Stop_001
       rect:
         serializedVersion: 2
         x: 60
@@ -2130,7 +2130,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MomodoraAnimations_132
+      name: _Stop_002
       rect:
         serializedVersion: 2
         x: 110
@@ -2143,7 +2143,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MomodoraAnimations_133
+      name: _Stop_003
       rect:
         serializedVersion: 2
         x: 160
@@ -2156,7 +2156,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MomodoraAnimations_134
+      name: _Stop_004
       rect:
         serializedVersion: 2
         x: 207
@@ -2169,7 +2169,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MomodoraAnimations_135
+      name: _Stop_005
       rect:
         serializedVersion: 2
         x: 258
@@ -2182,7 +2182,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: MomodoraAnimations_136
+      name: _Stop_006
       rect:
         serializedVersion: 2
         x: 309
