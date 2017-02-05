@@ -78,4 +78,9 @@ public class SoundEffects : MonoBehaviour {
 
         playSound();
     }
+
+    public void stopSound()
+    {
+        aSource.Stop();
+    }
 }
